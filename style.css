@@ -1,0 +1,43 @@
+h2 {
+  color: green;
+  font-family: "IBM Plex Sans";
+}
+
+.hello {
+  position: relative;
+  color: red;
+  top: 10px;
+  font-weight: 100;
+  font-size: 70px;
+}
+
+.world {
+  color: green;
+  padding: 10px;
+  border: 1px dashed black;
+  margin: 10px;
+  float: right;
+}
+
+#hello {
+  color: darkgoldenrod;
+  display: inline;
+}
+
+#world {
+  color: goldenrod;
+}
+
+* {
+  color: gray;
+}
+
+
+.clickme:hover {
+  color: red;
+}
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    src: url("./IBMPlexSansKR-Medium.ttf");
+}

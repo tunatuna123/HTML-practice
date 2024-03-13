@@ -1,0 +1,17 @@
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: red ;
+    z-index: 1;
+}
+
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: blue ;
+    z-index: 1;
+}
+
+.check:checked ~ div {
+    background-color: green;
+}
